@@ -1,0 +1,34 @@
+ Purpose                    | Main Tools                | Type                                                     |
+| -------------------------- | ------------------------- | -------------------------------------------------------- |
+| Domain/WHOIS               | `whois`                   | Passive                                                  |
+| DNS                        | `dig`, `nslookup`, `host` | Passive / Active, usage par depend                       |
+| Subdomains                 | `Subfinder`, `Amass`      | Mostly Passive; Amass active modes bhi support karta hai |
+| Technology detection       | `WhatWeb`, Wappalyzer     | Passive / Active                                         |
+| Certificate info           | CT logs, `crt.sh`         | Passive                                                  |
+| Search-engine recon        | Google/Bing operators     | Passive                                                  |
+| Ports/services             | `Nmap`                    | **Active**                                               |
+| Web content discovery      | `Gobuster`, `ffuf`        | **Active**                                               |
+| HTTP inspection            | `curl`                    | **Active**                                               |
+| Web proxy/testing          | Burp Suite                | **Active**                                               |
+| Vulnerability scanning     | Nessus, Nuclei            | **Active**                                                                     
+| Web Server Information Potentially interesting files/directories identify karna    |  Nikto                    | **Active**                                              
+
+│
+├── WHOIS
+├── DNS
+├── Subfinder
+├── Amass
+└── Certificate Transparency
+        ↓
+ACTIVE RECON
+│
+├── Nmap
+├── WhatWeb
+├── Gobuster
+├── FFUF
+├── Nikto
+└── curl
+        ↓
+WEB SECURITY TESTING
+│
+└── Burp Suite

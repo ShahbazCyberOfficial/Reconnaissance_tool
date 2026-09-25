@@ -1,0 +1,698 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>ffuf -u http://192.168.1.12/mutillidae/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -of html -o ffuf.html</pre>
+		<pre>2026-08-18T10:29:15-04:00</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|FUZZ|Url|RedirectLocation|Position|ContentLength|ContentWords|ContentLines|ContentType|Duration|Resultfile|ScraperData|FfufHash|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+			  <th>Lines</th>
+			  <th>Type</th>
+              <th>Duration</th>
+			  <th>Resultfile</th>
+              <th>Scraper data</th>
+              <th>Ffuf Hash</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|403|.htpasswd|http://192.168.1.12/mutillidae/.htpasswd||26|305|22|11|text/html; charset=iso-8859-1|28.957334ms|||e7e901a|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htpasswd</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/.htpasswd">http://192.168.1.12/mutillidae/.htpasswd</a></td>
+                    <td><a href=""></a></td>
+                    <td>26</td>
+                    <td>305</td>
+                    <td>22</td>
+					<td>11</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>28.957334ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e901a</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.htaccess|http://192.168.1.12/mutillidae/.htaccess||25|305|22|11|text/html; charset=iso-8859-1|844.374456ms|||e7e9019|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.htaccess</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/.htaccess">http://192.168.1.12/mutillidae/.htaccess</a></td>
+                    <td><a href=""></a></td>
+                    <td>25</td>
+                    <td>305</td>
+                    <td>22</td>
+					<td>11</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>844.374456ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e9019</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|classes|http://192.168.1.12/mutillidae/classes|http://192.168.1.12/mutillidae/classes/|1110|330|21|10|text/html; charset=iso-8859-1|56.033889ms|||e7e90456|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>classes</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/classes">http://192.168.1.12/mutillidae/classes</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/classes/">http://192.168.1.12/mutillidae/classes/</a></td>
+                    <td>1110</td>
+                    <td>330</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>56.033889ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90456</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|credits|http://192.168.1.12/mutillidae/credits||1321|509|39|20|text/html|80.379228ms|||e7e90529|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>credits</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/credits">http://192.168.1.12/mutillidae/credits</a></td>
+                    <td><a href=""></a></td>
+                    <td>1321</td>
+                    <td>509</td>
+                    <td>39</td>
+					<td>20</td>
+					<td>text/html</td>
+					<td>80.379228ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90529</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|403|.hta|http://192.168.1.12/mutillidae/.hta||24|300|22|11|text/html; charset=iso-8859-1|3.102801695s|||e7e9018|
+                </div>
+                <tr class="result-403" style="background-color: #d2cb7e;">
+                    <td><font color="black" class="status-code">403</font></td>
+                    
+                        <td>.hta</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/.hta">http://192.168.1.12/mutillidae/.hta</a></td>
+                    <td><a href=""></a></td>
+                    <td>24</td>
+                    <td>300</td>
+                    <td>22</td>
+					<td>11</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>3.102801695s</td>
+                    <td></td>
+					<td></td>
+					<td>e7e9018</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|documentation|http://192.168.1.12/mutillidae/documentation|http://192.168.1.12/mutillidae/documentation/|1537|336|21|10|text/html; charset=iso-8859-1|48.234618ms|||e7e90601|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>documentation</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/documentation">http://192.168.1.12/mutillidae/documentation</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/documentation/">http://192.168.1.12/mutillidae/documentation/</a></td>
+                    <td>1537</td>
+                    <td>336</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>48.234618ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90601</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|favicon.ico|http://192.168.1.12/mutillidae/favicon.ico||1772|1150|4|5|image/x-icon|2.252112ms|||e7e906ec|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>favicon.ico</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/favicon.ico">http://192.168.1.12/mutillidae/favicon.ico</a></td>
+                    <td><a href=""></a></td>
+                    <td>1772</td>
+                    <td>1150</td>
+                    <td>4</td>
+					<td>5</td>
+					<td>image/x-icon</td>
+					<td>2.252112ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e906ec</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|footer|http://192.168.1.12/mutillidae/footer||1848|450|21|16|text/html|111.563853ms|||e7e90738|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>footer</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/footer">http://192.168.1.12/mutillidae/footer</a></td>
+                    <td><a href=""></a></td>
+                    <td>1848</td>
+                    <td>450</td>
+                    <td>21</td>
+					<td>16</td>
+					<td>text/html</td>
+					<td>111.563853ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90738</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|header|http://192.168.1.12/mutillidae/header||2070|19879|764|481|text/html|216.059418ms|||e7e90816|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>header</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/header">http://192.168.1.12/mutillidae/header</a></td>
+                    <td><a href=""></a></td>
+                    <td>2070</td>
+                    <td>19879</td>
+                    <td>764</td>
+					<td>481</td>
+					<td>text/html</td>
+					<td>216.059418ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90816</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|home|http://192.168.1.12/mutillidae/home||2102|2930|141|54|text/html|160.141056ms|||e7e90836|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>home</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/home">http://192.168.1.12/mutillidae/home</a></td>
+                    <td><a href=""></a></td>
+                    <td>2102</td>
+                    <td>2930</td>
+                    <td>141</td>
+					<td>54</td>
+					<td>text/html</td>
+					<td>160.141056ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90836</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|images|http://192.168.1.12/mutillidae/images|http://192.168.1.12/mutillidae/images/|2182|329|21|10|text/html; charset=iso-8859-1|30.252175ms|||e7e90886|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>images</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/images">http://192.168.1.12/mutillidae/images</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/images/">http://192.168.1.12/mutillidae/images/</a></td>
+                    <td>2182</td>
+                    <td>329</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>30.252175ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90886</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|includes|http://192.168.1.12/mutillidae/includes|http://192.168.1.12/mutillidae/includes/|2203|331|21|10|text/html; charset=iso-8859-1|20.547889ms|||e7e9089b|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>includes</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/includes">http://192.168.1.12/mutillidae/includes</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/includes/">http://192.168.1.12/mutillidae/includes/</a></td>
+                    <td>2203</td>
+                    <td>331</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>20.547889ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e9089b</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|javascript|http://192.168.1.12/mutillidae/javascript|http://192.168.1.12/mutillidae/javascript/|2334|333|21|10|text/html; charset=iso-8859-1|32.002468ms|||e7e9091e|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>javascript</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/javascript">http://192.168.1.12/mutillidae/javascript</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/javascript/">http://192.168.1.12/mutillidae/javascript/</a></td>
+                    <td>2334</td>
+                    <td>333</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>32.002468ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e9091e</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|installation|http://192.168.1.12/mutillidae/installation||2260|8138|978|150|text/html|561.230191ms|||e7e908d4|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>installation</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/installation">http://192.168.1.12/mutillidae/installation</a></td>
+                    <td><a href=""></a></td>
+                    <td>2260</td>
+                    <td>8138</td>
+                    <td>978</td>
+					<td>150</td>
+					<td>text/html</td>
+					<td>561.230191ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e908d4</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|login|http://192.168.1.12/mutillidae/login||2529|4102|225|130|text/html|241.391636ms|||e7e909e1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>login</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/login">http://192.168.1.12/mutillidae/login</a></td>
+                    <td><a href=""></a></td>
+                    <td>2529</td>
+                    <td>4102</td>
+                    <td>225</td>
+					<td>130</td>
+					<td>text/html</td>
+					<td>241.391636ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e909e1</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|index.php|http://192.168.1.12/mutillidae/index.php||2210|24216|1035|564|text/html|2.060600074s|||e7e908a2|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>index.php</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/index.php">http://192.168.1.12/mutillidae/index.php</a></td>
+                    <td><a href=""></a></td>
+                    <td>2210</td>
+                    <td>24216</td>
+                    <td>1035</td>
+					<td>564</td>
+					<td>text/html</td>
+					<td>2.060600074s</td>
+                    <td></td>
+					<td></td>
+					<td>e7e908a2</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|passwords|http://192.168.1.12/mutillidae/passwords|http://192.168.1.12/mutillidae/passwords/|3043|332|21|10|text/html; charset=iso-8859-1|127.875102ms|||e7e90be3|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>passwords</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/passwords">http://192.168.1.12/mutillidae/passwords</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/passwords/">http://192.168.1.12/mutillidae/passwords/</a></td>
+                    <td>3043</td>
+                    <td>332</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>127.875102ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90be3</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|index|http://192.168.1.12/mutillidae/index||2207|24216|1035|564|text/html|2.328304849s|||e7e9089f|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>index</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/index">http://192.168.1.12/mutillidae/index</a></td>
+                    <td><a href=""></a></td>
+                    <td>2207</td>
+                    <td>24216</td>
+                    <td>1035</td>
+					<td>564</td>
+					<td>text/html</td>
+					<td>2.328304849s</td>
+                    <td></td>
+					<td></td>
+					<td>e7e9089f</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|inc|http://192.168.1.12/mutillidae/inc||2200|386260|38538|9004|text/plain|27.775864ms|||e7e90898|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>inc</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/inc">http://192.168.1.12/mutillidae/inc</a></td>
+                    <td><a href=""></a></td>
+                    <td>2200</td>
+                    <td>386260</td>
+                    <td>38538</td>
+					<td>9004</td>
+					<td>text/plain</td>
+					<td>27.775864ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90898</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|notes|http://192.168.1.12/mutillidae/notes||2865|1721|176|38|text/html|840.985334ms|||e7e90b31|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>notes</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/notes">http://192.168.1.12/mutillidae/notes</a></td>
+                    <td><a href=""></a></td>
+                    <td>2865</td>
+                    <td>1721</td>
+                    <td>176</td>
+					<td>38</td>
+					<td>text/html</td>
+					<td>840.985334ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90b31</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|page-not-found|http://192.168.1.12/mutillidae/page-not-found||3009|705|52|25|text/html|911.872803ms|||e7e90bc1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>page-not-found</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/page-not-found">http://192.168.1.12/mutillidae/page-not-found</a></td>
+                    <td><a href=""></a></td>
+                    <td>3009</td>
+                    <td>705</td>
+                    <td>52</td>
+					<td>25</td>
+					<td>text/html</td>
+					<td>911.872803ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90bc1</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|phpMyAdmin|http://192.168.1.12/mutillidae/phpMyAdmin||3109|174|7|10|text/html|839.777878ms|||e7e90c25|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>phpMyAdmin</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/phpMyAdmin">http://192.168.1.12/mutillidae/phpMyAdmin</a></td>
+                    <td><a href=""></a></td>
+                    <td>3109</td>
+                    <td>174</td>
+                    <td>7</td>
+					<td>10</td>
+					<td>text/html</td>
+					<td>839.777878ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90c25</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|phpinfo.php|http://192.168.1.12/mutillidae/phpinfo.php||3120|48852|2451|677|text/html|1.002032349s|||e7e90c30|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>phpinfo.php</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/phpinfo.php">http://192.168.1.12/mutillidae/phpinfo.php</a></td>
+                    <td><a href=""></a></td>
+                    <td>3120</td>
+                    <td>48852</td>
+                    <td>2451</td>
+					<td>677</td>
+					<td>text/html</td>
+					<td>1.002032349s</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90c30</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|phpinfo|http://192.168.1.12/mutillidae/phpinfo||3119|48840|2451|677|text/html|904.666792ms|||e7e90c2f|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>phpinfo</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/phpinfo">http://192.168.1.12/mutillidae/phpinfo</a></td>
+                    <td><a href=""></a></td>
+                    <td>3119</td>
+                    <td>48840</td>
+                    <td>2451</td>
+					<td>677</td>
+					<td>text/html</td>
+					<td>904.666792ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90c2f</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|register|http://192.168.1.12/mutillidae/register||3498|1823|92|60|text/html|196.78895ms|||e7e90daa|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>register</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/register">http://192.168.1.12/mutillidae/register</a></td>
+                    <td><a href=""></a></td>
+                    <td>3498</td>
+                    <td>1823</td>
+                    <td>92</td>
+					<td>60</td>
+					<td>text/html</td>
+					<td>196.78895ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90daa</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|robots|http://192.168.1.12/mutillidae/robots||3593|160|8|7|text/plain|21.545069ms|||e7e90e09|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>robots</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/robots">http://192.168.1.12/mutillidae/robots</a></td>
+                    <td><a href=""></a></td>
+                    <td>3593</td>
+                    <td>160</td>
+                    <td>8</td>
+					<td>7</td>
+					<td>text/plain</td>
+					<td>21.545069ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90e09</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|robots.txt|http://192.168.1.12/mutillidae/robots.txt||3594|160|8|7|text/plain|76.535325ms|||e7e90e0a|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>robots.txt</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/robots.txt">http://192.168.1.12/mutillidae/robots.txt</a></td>
+                    <td><a href=""></a></td>
+                    <td>3594</td>
+                    <td>160</td>
+                    <td>8</td>
+					<td>7</td>
+					<td>text/plain</td>
+					<td>76.535325ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90e0a</td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|301|styles|http://192.168.1.12/mutillidae/styles|http://192.168.1.12/mutillidae/styles/|4013|329|21|10|text/html; charset=iso-8859-1|276.585259ms|||e7e90fad|
+                </div>
+                <tr class="result-301" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">301</font></td>
+                    
+                        <td>styles</td>
+                    
+                    <td><a href="http://192.168.1.12/mutillidae/styles">http://192.168.1.12/mutillidae/styles</a></td>
+                    <td><a href="http://192.168.1.12/mutillidae/styles/">http://192.168.1.12/mutillidae/styles/</a></td>
+                    <td>4013</td>
+                    <td>329</td>
+                    <td>21</td>
+					<td>10</td>
+					<td>text/html; charset=iso-8859-1</td>
+					<td>276.585259ms</td>
+                    <td></td>
+					<td></td>
+					<td>e7e90fad</td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	

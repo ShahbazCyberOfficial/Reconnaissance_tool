@@ -1,0 +1,20 @@
+#dig example.com > dig.txt
+;; communications error to 192.168.1.1#53: timed out
+
+; <<>> DiG 9.20.20-1-Debian <<>> exapmle.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2852
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;exapmle.com.			IN	A
+
+;; ANSWER SECTION:
+exapmle.com.		3403	IN	A	103.224.182.243
+
+;; Query time: 4 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
+;; WHEN: Tue Aug 18 08:49:23 EDT 2026
+;; MSG SIZE  rcvd: 45
+
